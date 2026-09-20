@@ -1,0 +1,47 @@
+RUN torchrun --standalone --nproc_per_node 1 train.py --train-n 8000 --eval-n 400 --max-len 384 --per-device-bs 4 --out results_1gpu.json --eval-before --save-merged merged
+before: {'loss': 0.3062598509315499, 'perplexity': 1.358335256576538, 'exact_match': 0.0675}
+step 0/500 loss 0.3653 1.00s
+step 25/500 loss 0.1574 0.80s
+step 50/500 loss 0.1136 0.77s
+step 75/500 loss 0.0710 0.81s
+step 100/500 loss 0.1288 0.83s
+step 125/500 loss 0.0297 0.78s
+step 150/500 loss 0.1403 0.77s
+step 175/500 loss 0.0792 0.79s
+step 200/500 loss 0.1468 0.77s
+step 225/500 loss 0.0335 0.77s
+step 250/500 loss 0.0598 0.76s
+step 275/500 loss 0.0389 0.77s
+step 300/500 loss 0.0452 0.81s
+step 325/500 loss 0.0182 0.76s
+step 350/500 loss 0.0442 0.77s
+step 375/500 loss 0.0700 0.79s
+step 400/500 loss 0.0434 0.77s
+step 425/500 loss 0.0556 0.78s
+step 450/500 loss 0.1302 0.79s
+step 475/500 loss 0.0272 0.83s
+after: {'loss': 0.05965985701900052, 'perplexity': 1.061475396156311, 'exact_match': 0.7175}
+finished world=1 in 623s wall (includes model load and evaluation)
+RUN torchrun --standalone --nproc_per_node 2 train.py --train-n 8000 --eval-n 400 --max-len 384 --per-device-bs 4 --out results_2gpu.json
+step 0/500 loss 0.3508 0.99s
+step 25/500 loss 0.2415 0.47s
+step 50/500 loss 0.1622 0.43s
+step 75/500 loss 0.0817 0.48s
+step 100/500 loss 0.0523 0.43s
+step 125/500 loss 0.0264 0.44s
+step 150/500 loss 0.1714 0.42s
+step 175/500 loss 0.1344 0.43s
+step 200/500 loss 0.2515 0.45s
+step 225/500 loss 0.0454 0.44s
+step 250/500 loss 0.0632 0.44s
+step 275/500 loss 0.0551 0.44s
+step 300/500 loss 0.0369 0.44s
+step 325/500 loss 0.0191 0.44s
+step 350/500 loss 0.0129 0.45s
+step 375/500 loss 0.1066 0.45s
+step 400/500 loss 0.0867 0.44s
+step 425/500 loss 0.0615 0.44s
+step 450/500 loss 0.0856 0.49s
+step 475/500 loss 0.0273 0.44s
+after: {'loss': 0.05973044448597563, 'perplexity': 1.0615503787994385, 'exact_match': 0.72}
+finished world=2 in 335s wall (includes model load and evaluation)

@@ -1,0 +1,24 @@
+{
+  "world_size": 2,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "trainable_params": 8798208,
+  "total_params": 502830976,
+  "train_examples": 8000,
+  "eval_examples": 400,
+  "global_batch": 16,
+  "per_device_bs": 4,
+  "gpu": "Tesla T4",
+  "steps": 500,
+  "grad_accumulation": 2,
+  "train_seconds_after_warmup": 223.73676824569702,
+  "seconds_per_step": 0.45017458399536625,
+  "tokens_per_second": 3377.6673629705656,
+  "peak_memory_gib_per_gpu": 8.582286834716797,
+  "loss_first10": 0.15703327683731913,
+  "loss_last10": 0.06887508977670223,
+  "eval_after": {
+    "loss": 0.05973044448597563,
+    "perplexity": 1.0615503787994385,
+    "exact_match": 0.72
+  }
+}

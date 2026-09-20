@@ -1,0 +1,42 @@
+{
+  "gpu": "Tesla T4",
+  "trainable_params": 8798208,
+  "total_params": 502830976,
+  "eval_before": {
+    "loss": 0.3062598509315499,
+    "perplexity": 1.358335256576538,
+    "exact_match": 0.0675
+  },
+  "eval_after_1gpu": {
+    "loss": 0.05965985701900052,
+    "perplexity": 1.061475396156311,
+    "exact_match": 0.7175
+  },
+  "eval_after_2gpu": {
+    "loss": 0.05973044448597563,
+    "perplexity": 1.0615503787994385,
+    "exact_match": 0.72
+  },
+  "seconds_per_step": {
+    "1gpu": 0.7901629912301569,
+    "2gpu": 0.45017458399536625
+  },
+  "speedup_2gpu_vs_1gpu": 1.7552367888416602,
+  "scaling_efficiency": 0.8776183944208301,
+  "tokens_per_second": {
+    "1gpu": 1924.3371517979645,
+    "2gpu": 3377.6673629705656
+  },
+  "peak_memory_gib_per_gpu": {
+    "1gpu": 8.58228588104248,
+    "2gpu": 8.582286834716797
+  },
+  "loss_first10_last10_1gpu": [
+    0.18182657123543322,
+    0.05751068916870281
+  ],
+  "loss_first10_last10_2gpu": [
+    0.15703327683731913,
+    0.06887508977670223
+  ]
+}
