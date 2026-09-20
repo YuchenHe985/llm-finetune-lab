@@ -114,6 +114,13 @@ synchronised, which is why scaling is close to linear. The adapter is merged int
 - **The evaluation harness started sending requests while the model was still loading;** it now waits for `/health` to return 200.
 - **The Kaggle image ships a `torchao` too old for its `peft` and `transformers`;** the notebook uninstalls it first.
 
+### Storing and shipping the result
+
+The merged fp16 model shares only 27.6% of its bytes with the base, the token embedding that LoRA did not train: LoRA changed about 99% of the values in every
+projection matrix, so a chunk-level store measured with [cdc-chunker](https://github.com/YuchenHe985/cdc-chunker) at Hugging Face Xet's chunk sizes keeps 716 MB of the
+988 MB file as new data. The adapter alone (8.8M parameters, about 35 MB in fp32) is what to store or send when the base is already there. The GGUF
+numbers and the per-tensor breakdown are in the [model-file section](https://github.com/YuchenHe985/cdc-chunker#deduplication-of-model-files) of that repository.
+
 ## Limits
 
 One small model, one public dataset, one seed, 500 steps. The generated test databases approximate execution accuracy: they can show two queries differ, not prove
