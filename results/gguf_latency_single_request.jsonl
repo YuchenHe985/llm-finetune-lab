@@ -1,0 +1,4 @@
+{"label": "base-q4_k_m-single", "examples": 100, "exact_match": 0.17, "file_mb": 491, "seconds": 32.9, "concurrency": 1, "latency_ms_p50": 315, "latency_ms_p95": 564}
+{"label": "finetuned-f16-single", "examples": 100, "exact_match": 0.74, "file_mb": 994, "seconds": 58.7, "concurrency": 1, "latency_ms_p50": 580, "latency_ms_p95": 925}
+{"label": "finetuned-q8_0-single", "examples": 100, "exact_match": 0.75, "file_mb": 531, "seconds": 45.4, "concurrency": 1, "latency_ms_p50": 451, "latency_ms_p95": 720}
+{"label": "finetuned-q4_k_m-single", "examples": 100, "exact_match": 0.73, "file_mb": 398, "seconds": 39.6, "concurrency": 1, "latency_ms_p50": 400, "latency_ms_p95": 611}

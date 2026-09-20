@@ -1,0 +1,400 @@
+{"answer": "SELECT theme FROM table_name_85 WHERE original_artist = \"carole king\" AND week__number = \"hollywood\"", "latency_ms": 733}
+{"answer": "SELECT COUNT(rank) FROM table_2527063_3 WHERE growth_rate = \"14.47\"", "latency_ms": 758}
+{"answer": "SELECT MIN(population__january_1) FROM table_16278602_1 WHERE _2008_ = 2008 AND largest_city = \"Roskilde\"", "latency_ms": 1223}
+{"answer": "SELECT COUNT(new_council) FROM table_name_14 WHERE previous_council = \"19\" AND seats_up_for_election > 6", "latency_ms": 892}
+{"answer": "SELECT signatories FROM table_name_71 WHERE purpose = \"police security\" AND payee = \"infotelent\"", "latency_ms": 711}
+{"answer": "SELECT number_s_ FROM table_name_43 WHERE quantity = \"1\" AND year_s__of_manufacture = \"1841\"", "latency_ms": 892}
+{"answer": "SELECT record FROM table_name_32 WHERE location_attendance = \"madison square garden 19,009\"", "latency_ms": 655}
+{"answer": "SELECT opponent FROM table_name_79 WHERE score = \"84-88 (ot)\"", "latency_ms": 589}
+{"answer": "SELECT MIN(pa) FROM table_29546142_2 WHERE w = 2", "latency_ms": 649}
+{"answer": "SELECT title FROM table_23399481_4 WHERE written_by = \"Michael Gans & Richard Register\"", "latency_ms": 812}
+{"answer": "SELECT city FROM table_name_32 WHERE date = \"april 29\"", "latency_ms": 540}
+{"answer": "SELECT COUNT(institution) FROM table_28211213_2 WHERE team_nickname = \"Gray Wolves\"", "latency_ms": 797}
+{"answer": "SELECT SUM(_percentage_2006) FROM table_name_70 WHERE seats_2001 > 15 AND _percentage_2001 > 100", "latency_ms": 1136}
+{"answer": "SELECT country FROM table_name_38 WHERE place = \"t1\"", "latency_ms": 454}
+{"answer": "SELECT opponent FROM table_name_47 WHERE date = \"2006-04-08\"", "latency_ms": 662}
+{"answer": "SELECT part_3 FROM table_1745843_6 WHERE class = \"4\"", "latency_ms": 622}
+{"answer": "SELECT MAX(grid) FROM table_name_56 WHERE constructor = \"osella - alfa romeo\" AND laps > 61", "latency_ms": 859}
+{"answer": "SELECT decision FROM table_name_28 WHERE home = \"colorado\"", "latency_ms": 498}
+{"answer": "SELECT score FROM table_name_55 WHERE team_2 = \"al-qadsia\"", "latency_ms": 609}
+{"answer": "SELECT COUNT(rank) FROM table_21109892_1 WHERE production__mt_ = \"650000\"", "latency_ms": 954}
+{"answer": "SELECT MAX(crowd) FROM table_name_86 WHERE away_team = \"geelong\"", "latency_ms": 560}
+{"answer": "SELECT score FROM table_name_1 WHERE date = \"jun 16\" AND set_4 = \"25-20\"", "latency_ms": 855}
+{"answer": "SELECT order__number FROM table_26250155_1 WHERE theme = \"Billboard Hot 100 Hits\" AND original_artist = \"Sixpence None the Richer\"", "latency_ms": 1234}
+{"answer": "SELECT series_premiere FROM table_29799700_2 WHERE tv_network_s_ = \"TV3\"", "latency_ms": 769}
+{"answer": "SELECT COUNT(rank) FROM table_1682026_9 WHERE profits__billion_$_ = \"9.52\"", "latency_ms": 788}
+{"answer": "SELECT label FROM table_name_42 WHERE catalog = \"3645\" AND date > 1987", "latency_ms": 703}
+{"answer": "SELECT semifinals FROM table_17427004_7 WHERE athlete = \"Hamza Kramou\"", "latency_ms": 846}
+{"answer": "SELECT SUM(bronze) FROM table_name_42 WHERE silver < 0", "latency_ms": 550}
+{"answer": "SELECT venue FROM table_name_31 WHERE against < 7", "latency_ms": 390}
+{"answer": "SELECT byte_string FROM table_name_23 WHERE memory_map = \"standard\" AND decimal = \"standard\" AND floating_point = \"standard\" AND max_memory__kwords_ < 512", "latency_ms": 1181}
+{"answer": "SELECT party FROM table_1341865_23 WHERE incumbent = \"Edward Boland\"", "latency_ms": 711}
+{"answer": "SELECT AVG(crowd) FROM table_name_38 WHERE venue = \"western oval\"", "latency_ms": 541}
+{"answer": "SELECT no FROM table_2866509_1 WHERE us_viewers__million_ = \"5.60\"", "latency_ms": 780}
+{"answer": "SELECT MIN(week) FROM table_name_93 WHERE result = \"l 13\u201310, november 30, 1975\" AND date = \"november 30, 1975\" AND attendance > 44 OFFSET 982", "latency_ms": 1608}
+{"answer": "SELECT surface FROM table_name_13 WHERE opponent = \"gustavo kuerten\"", "latency_ms": 510}
+{"answer": "SELECT competition FROM table_name_44 WHERE result = \"1-0\"", "latency_ms": 441}
+{"answer": "SELECT venue FROM table_name_39 WHERE score = \"0:0\" AND season > 2010 AND team_1 = \"t&t hanoi\"", "latency_ms": 907}
+{"answer": "SELECT MIN(owned_since) FROM table_22329326_1", "latency_ms": 459}
+{"answer": "SELECT start_date FROM table_24057191_2 WHERE series = \"Series 6\"", "latency_ms": 604}
+{"answer": "SELECT competition FROM table_name_28 WHERE date = \"28 march 2009\"", "latency_ms": 653}
+{"answer": "SELECT SUM(grid) FROM table_name_48 WHERE driver = \"richard robarts\" AND laps = 36", "latency_ms": 722}
+{"answer": "SELECT holmenkollen FROM table_name_58 WHERE fis_nordic_world_ski_championships = \"1962, 1964\"", "latency_ms": 914}
+{"answer": "SELECT career FROM table_name_70 WHERE \"2006 3r\" = \"2006 3r\" AND \"1999 2r\" = \"1999 2r\"", "latency_ms": 1237}
+{"answer": "SELECT COUNT(area__km_2__) FROM table_name_96 WHERE population < 409 AND place = \"cannonvale\"", "latency_ms": 717}
+{"answer": "SELECT theatre FROM table_name_31 WHERE performances > 49 AND role = \"aaron jablonski schuyler grogan\"", "latency_ms": 749}
+{"answer": "SELECT AVG(track_number) FROM table_name_52 WHERE time = \"3:25\" AND title = \"great getting up mornin'\"", "latency_ms": 840}
+{"answer": "SELECT venue FROM table_name_6 WHERE runner_up__average_in_final_ = \"wayne jones (94.64)\"", "latency_ms": 770}
+{"answer": "SELECT COUNT(week) FROM table_name_73 WHERE record = \"5-5\"", "latency_ms": 613}
+{"answer": "SELECT class FROM table_name_31 WHERE peak = \"fountains fell south top\"", "latency_ms": 581}
+{"answer": "SELECT COUNT(vehicle_theft) FROM table_26060884_2 WHERE forcible_rape = \"1232\"", "latency_ms": 949}
+{"answer": "SELECT integrated FROM table_11944282_1 WHERE component = \"Customers\"", "latency_ms": 647}
+{"answer": "SELECT name FROM table_24565004_7 WHERE appearances\u00b9 = \"252\"", "latency_ms": 716}
+{"answer": "SELECT DISTINCT asset_model FROM Assets", "latency_ms": 214}
+{"answer": "SELECT score FROM table_name_94 WHERE outcome = \"runner-up\" AND date = \"may 21, 1984\"", "latency_ms": 837}
+{"answer": "SELECT junctions FROM table_name_98 WHERE termini = \"aguilares, texas us 59\"", "latency_ms": 713}
+{"answer": "SELECT week_3_sept_8 FROM table_name_51 WHERE week_2_sept_2 = \"florida state (2-0) (4)\"", "latency_ms": 947}
+{"answer": "SELECT 1993 FROM table_name_35 WHERE tournament = \"cincinnati\"", "latency_ms": 565}
+{"answer": "SELECT visitor FROM table_name_28 WHERE game > 29 AND attendance = \"18,584\"", "latency_ms": 755}
+{"answer": "SELECT nation FROM table_name_2 WHERE silver = \"5\" AND gold > 4", "latency_ms": 504}
+{"answer": "SELECT team FROM table_name_74 WHERE drivers = \"christian fittipaldi\"", "latency_ms": 550}
+{"answer": "SELECT COUNT(joined) FROM table_255205_1 WHERE location = \"Franklin, Indiana\"", "latency_ms": 761}
+{"answer": "SELECT product_color FROM Products", "latency_ms": 254}
+{"answer": "SELECT MAX(win__percentage) FROM table_name_91 WHERE drawn = \"13\"", "latency_ms": 560}
+{"answer": "SELECT archive FROM table_2102898_1 WHERE broadcast_date = \"18April1970\"", "latency_ms": 798}
+{"answer": "SELECT MAX(poles) FROM table_name_56 WHERE series = \"ginetta championship\" AND season < 2007", "latency_ms": 785}
+{"answer": "SELECT document_status_description FROM Ref_Document_Status WHERE document_status_code = \"Working\"", "latency_ms": 576}
+{"answer": "SELECT station_type FROM table_24673888_1 WHERE callsign = \"DWZM-TV\"", "latency_ms": 832}
+{"answer": "SELECT skip FROM table_name_30 WHERE second = \"philippe caux\"", "latency_ms": 600}
+{"answer": "SELECT player FROM table_name_71 WHERE pl_gp > 0 AND rd__number = \"1\"", "latency_ms": 680}
+{"answer": "SELECT team FROM table_name_51 WHERE win__number = \"1\" AND rating = \"+85\"", "latency_ms": 693}
+{"answer": "SELECT MIN(commenced_operations) FROM table_name_90 WHERE callsign = \"nouvelle-air\"", "latency_ms": 663}
+{"answer": "SELECT airport FROM table_name_95 WHERE city = \"milan\" AND iata = \"lin\"", "latency_ms": 661}
+{"answer": "SELECT COUNT(opponent) FROM table_11406866_2 WHERE date = \"November 23, 1980\"", "latency_ms": 896}
+{"answer": "SELECT end__utc_ FROM table_22385461_8 WHERE duration = \"6 hours, 55 minutes\"", "latency_ms": 869}
+{"answer": "SELECT winner FROM table_name_15 WHERE season = \"2005\u201306\"", "latency_ms": 566}
+{"answer": "SELECT T2.Age FROM gymnast AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID ORDER BY T1.Total_Points DESC", "latency_ms": 988}
+{"answer": "SELECT SUM(no_in_series) FROM table_19897294_8 WHERE family_families = \"In the Ward Family and the Wren Family\"", "latency_ms": 936}
+{"answer": "SELECT MAX(b_score) FROM table_name_4 WHERE a_score < 6.5", "latency_ms": 508}
+{"answer": "SELECT COUNT(average) FROM table_name_6 WHERE caps > 69 AND scotland_career = \"1986\u20131998 les than 69\"", "latency_ms": 975}
+{"answer": "SELECT player FROM table_20170644_3 WHERE cfl_team = \"BC Lions\"", "latency_ms": 668}
+{"answer": "SELECT SUM(week) FROM table_name_78 WHERE date = \"december 24, 1994\"", "latency_ms": 753}
+{"answer": "SELECT COUNT(tries_for) FROM table_name_81 WHERE points_for < 137 AND tries_against > 12", "latency_ms": 787}
+{"answer": "SELECT SUM(all_around) FROM table_name_68 WHERE total = \"37.75\"", "latency_ms": 672}
+{"answer": "SELECT teams FROM table_name_84 WHERE league = \"regionalliga s\u00fcd\"", "latency_ms": 492}
+{"answer": "SELECT MAX(series__number) FROM table_name_53 WHERE original_air_date = \"september 22, 1976\"", "latency_ms": 838}
+{"answer": "SELECT COUNT(population) FROM table_name_15 WHERE gdp_per_capita__us$_ = \"15,054\"", "latency_ms": 892}
+{"answer": "SELECT date FROM table_name_76 WHERE score = \"6\u20131, 6\u20132\"", "latency_ms": 646}
+{"answer": "SELECT MIN(overall) FROM table_name_56 WHERE pick__number > 27", "latency_ms": 573}
+{"answer": "SELECT _2007 FROM table_name_44 WHERE shipwreck = \"leonty ibayev\" AND actor_in_moscow = \"moscow\"", "latency_ms": 1094}
+{"answer": "SELECT COUNT(seed) FROM table_29572583_19 WHERE points = \"2175\"", "latency_ms": 760}
+{"answer": "SELECT COUNT(laps) FROM table_name_50 WHERE qual = \"136.168\"", "latency_ms": 639}
+{"answer": "SELECT position FROM table_name_1 WHERE round < 3", "latency_ms": 290}
+{"answer": "SELECT COUNT(total) FROM table_name_57 WHERE silver = 6 AND bronze > 5 AND gold < 4", "latency_ms": 795}
+{"answer": "SELECT place FROM table_name_22 WHERE score = 71 - 69 - 71 = 211", "latency_ms": 852}
+{"answer": "SELECT AVG(points) FROM table_name_42 WHERE artist = \"kamil mikul\u010d\u00edk\" AND place > 18 AND place < 30", "latency_ms": 1045}
+{"answer": "SELECT COUNT(manner_of_departure) FROM table_17327458_1 WHERE date_of_vacancy = \"25 May\"", "latency_ms": 1015}
+{"answer": "SELECT constructor FROM table_name_36 WHERE fastest_lap = \"derek warwick\"", "latency_ms": 712}
+{"answer": "SELECT away_team AS score FROM table_name_66 WHERE away_team = \"footscray\"", "latency_ms": 718}
+{"answer": "SELECT COUNT(lost) FROM table_name_83 WHERE win__percentage < 16.7 AND played = 3", "latency_ms": 1059}
+{"answer": "SELECT T1.date_incident_start, T2.date_incident_end FROM Behavior_Incident AS T1 JOIN Students AS T2 ON T1.student_id = T2.student_id WHERE T2.last_name = 'Fahey'", "latency_ms": 1568}
+{"answer": "SELECT event FROM table_name_60 WHERE opponent = \"akihiro gono\" AND method = \"decision\"", "latency_ms": 935}
+{"answer": "SELECT original_air_date FROM table_2409041_2 WHERE no_in_series = \"21\"", "latency_ms": 987}
+{"answer": "SELECT venue FROM table_14981555_1 WHERE distance = \"1400m\"", "latency_ms": 773}
+{"answer": "SELECT season FROM table_name_84 WHERE champion = \"nicolas kiesa\"", "latency_ms": 486}
+{"answer": "SELECT place FROM table_name_41 WHERE score = 70 - 70 - 68 - 70 = 278", "latency_ms": 876}
+{"answer": "SELECT player FROM table_name_61 WHERE school_club_team = \"western ky\"", "latency_ms": 551}
+{"answer": "SELECT COUNT(week) FROM table_name_39 WHERE date = \"december 8, 1974\"", "latency_ms": 796}
+{"answer": "SELECT position FROM table_11677691_1 WHERE hometown = \"Jersey City, New Jersey\"", "latency_ms": 788}
+{"answer": "SELECT SUM(lost) FROM table_15405904_1 WHERE position = 2", "latency_ms": 728}
+{"answer": "SELECT MIN(attendance) FROM table_10566855_1 WHERE score = \"10.16 (76) \u2013 9.22 (76)\"", "latency_ms": 1188}
+{"answer": "SELECT MIN(events) FROM table_name_77 WHERE top_10 > 1 AND wins > 0", "latency_ms": 686}
+{"answer": "SELECT COUNT(release_date) FROM table_1467951_4 WHERE dvd_name = \"Volume 4 DVD\"", "latency_ms": 760}
+{"answer": "SELECT MIN(round__number) FROM table_20996923_25 WHERE player = \"Sherrick McManis\"", "latency_ms": 806}
+{"answer": "SELECT T1.lesson_id FROM Lessons AS T1 JOIN Staff AS T2 ON T1.staff_id = T2.staff_id WHERE T2.first_name = \"Janessa\" AND T2.last_name = \"Sawayn\" AND T1.nickname LIKE \"%s%\"", "latency_ms": 1451}
+{"answer": "SELECT circuit FROM table_name_5 WHERE winning_constructor = \"alfa romeo swedish ice race\" AND name = \"alfa romeo swedish ice race\"", "latency_ms": 886}
+{"answer": "SELECT MAX(td) FROM table_18064020_21", "latency_ms": 488}
+{"answer": "SELECT subdivision_name___ru____bgn_pcgn_ FROM table_290017_1 WHERE code = \"BY-HR\"", "latency_ms": 792}
+{"answer": "SELECT time FROM table_name_15 WHERE wrestler = \"jimmy rave\"", "latency_ms": 458}
+{"answer": "SELECT MAX(points) FROM table_name_8 WHERE entrant = \"warsteiner brewery\"", "latency_ms": 598}
+{"answer": "SELECT laps FROM table_name_3 WHERE constructor = \"toyota\" AND time_retired = \"+13.409\"", "latency_ms": 790}
+{"answer": "SELECT isbn FROM table_name_42 WHERE first_edition = \"may 2011\"", "latency_ms": 608}
+{"answer": "SELECT episode FROM table_20971444_3 WHERE rating__18_49_ = \"3.6\"", "latency_ms": 817}
+{"answer": "SELECT date FROM table_16388478_4 WHERE home_team = \"Adelaide\"", "latency_ms": 691}
+{"answer": "SELECT player FROM table_name_6 WHERE round > 1 AND nationality = \"austria\"", "latency_ms": 623}
+{"answer": "SELECT best FROM table_name_33 WHERE team = \"forsythe racing team\" AND name = \"patrick carpentier\"", "latency_ms": 810}
+{"answer": "SELECT MAX(built) FROM table_name_44 WHERE entered_service > 2003 AND knots < 27", "latency_ms": 795}
+{"answer": "SELECT title FROM table_26952212_1 WHERE no_in_total = \"30\"", "latency_ms": 700}
+{"answer": "SELECT MAX(top_10s) FROM table_2112220_6 WHERE best_finish = \"2\"", "latency_ms": 774}
+{"answer": "SELECT COUNT(killed) FROM table_11793221_2 WHERE commander = \"Major-General Jean Victor de Constant Rebecque\"", "latency_ms": 910}
+{"answer": "SELECT league FROM table_15475116_1 WHERE nickname = \"Cavaliers\"", "latency_ms": 672}
+{"answer": "SELECT mhra_approved FROM table_name_24 WHERE generic_name = \"blonanserin\"", "latency_ms": 553}
+{"answer": "SELECT score FROM table_name_25 WHERE player = \"gary player\"", "latency_ms": 527}
+{"answer": "SELECT result FROM table_name_4 WHERE date = \"july 16, 1992\"", "latency_ms": 717}
+{"answer": "SELECT original_air_date FROM table_11111116_6 WHERE written_by = \"Rebecca Dameron\"", "latency_ms": 805}
+{"answer": "SELECT t2.template_type_code FROM Templates AS t1 JOIN Documents AS t2 ON t1.template_id = t2.template_id GROUP BY t2.template_type_code HAVING COUNT(*) = 0", "latency_ms": 1103}
+{"answer": "SELECT dutch FROM table_name_68 WHERE h\u00f8vd = \"h\u00f8vd\" AND h\u00f8vur = \"h\u00f8vur\" AND Groningen = \"groningen\"", "latency_ms": 1037}
+{"answer": "SELECT country FROM table_name_55 WHERE year = \"1899\"", "latency_ms": 477}
+{"answer": "SELECT SUM(asian_american_population__2010_) FROM table_18963843_1 WHERE combined_statistical_area = \"Kansas City-Kansas City, MO-KS CSA\"", "latency_ms": 1165}
+{"answer": "SELECT original_title FROM table_name_35 WHERE director = \"veljko bulaji\u0107 category:articles with hcards\" AND film_title_used_in_nomination = \"train without a timetable\"", "latency_ms": 1106}
+{"answer": "SELECT COUNT(_percentage_of_popular_vote) FROM table_168482_1 WHERE election = \"1983\"", "latency_ms": 807}
+{"answer": "SELECT date FROM table_name_55 WHERE score = \"6\u20133, 3\u20136, 6\u20130\"", "latency_ms": 642}
+{"answer": "SELECT MAX(bronze) FROM table_name_86 WHERE total < 3 AND silver < 0", "latency_ms": 687}
+{"answer": "SELECT 2010 FROM table_name_30 WHERE 2006 = \"a\" AND 2011 = \"a\"", "latency_ms": 933}
+{"answer": "SELECT trainer FROM table_name_8 WHERE owner = \"robert courtney\"", "latency_ms": 480}
+{"answer": "SELECT record FROM table_name_78 WHERE date = \"september 21\"", "latency_ms": 557}
+{"answer": "SELECT player FROM table_name_52 WHERE hometown = \"los angeles, ca\"", "latency_ms": 586}
+{"answer": "SELECT motor FROM table_name_98 WHERE apogee = \"713 km\"", "latency_ms": 597}
+{"answer": "SELECT home_team FROM table_name_95 WHERE away_team = \"hawthorn\"", "latency_ms": 623}
+{"answer": "SELECT bore_, _stroke FROM table_name_9 WHERE engine = \"351-2v cleveland v8\"", "latency_ms": 770}
+{"answer": "SELECT class_a FROM table_name_59 WHERE school_year = \"2004-05\"", "latency_ms": 696}
+{"answer": "SELECT timeslot FROM table_15358729_6 WHERE season = \"Season 3\"", "latency_ms": 755}
+{"answer": "SELECT SUM(goals_against) FROM table_name_14 WHERE position = \"3\" AND goals_for > 10 AND wins < 6", "latency_ms": 891}
+{"answer": "SELECT SUM(biggenden) FROM table_12526990_1 WHERE year = \"1947\"", "latency_ms": 830}
+{"answer": "SELECT bubbles FROM table_name_12 WHERE attribute = \"onscroll\"", "latency_ms": 413}
+{"answer": "SELECT state FROM table_name_13 WHERE owner = \"wesson\"", "latency_ms": 432}
+{"answer": "SELECT COUNT(*) FROM products AS T1 JOIN product_characteristics AS T2 ON T1.product_id = T2.product_id WHERE T1.product_name = 'sesame'", "latency_ms": 1071}
+{"answer": "SELECT record FROM table_name_1 WHERE event = \"inoki bom-ba-ye 2002\"", "latency_ms": 740}
+{"answer": "SELECT COUNT(*) FROM claims_processing_stages", "latency_ms": 333}
+{"answer": "SELECT k_themistokleous FROM table_name_65 WHERE i_kasoulidis = \"30.1%\"", "latency_ms": 811}
+{"answer": "SELECT COUNT(content) FROM table_15887683_3 WHERE package_option = \"Qualsiasi Tranne Sky HD\"", "latency_ms": 884}
+{"answer": "SELECT AVG(heat) FROM table_name_43 WHERE time = \"59.11\" AND lane > 3", "latency_ms": 814}
+{"answer": "SELECT district FROM table_name_73 WHERE population < 75 AND name = \"st martin's without parish\"", "latency_ms": 766}
+{"answer": "SELECT AVG(wins) FROM table_name_84 WHERE class = \"250cc\" AND team = \"bultaco\" AND year > 1966 AND points = 8", "latency_ms": 1237}
+{"answer": "SELECT show FROM table_name_89 WHERE character = \"rohan\"", "latency_ms": 511}
+{"answer": "SELECT competition FROM table_name_70 WHERE notes = \"half marathon\"", "latency_ms": 504}
+{"answer": "SELECT winner FROM table_name_27 WHERE circuit = \"adelaide international raceway\"", "latency_ms": 570}
+{"answer": "SELECT score FROM table_name_59 WHERE partner = \"ksenia lykina\" AND tournament = \"kurume cup\"", "latency_ms": 793}
+{"answer": "SELECT report FROM table_26258348_4 WHERE grand_prix = \"Belgian Grand Prix\"", "latency_ms": 779}
+{"answer": "SELECT COUNT(pick) FROM table_name_1 WHERE round > 1 AND player = \"jim stack\"", "latency_ms": 675}
+{"answer": "SELECT COUNT(*) FROM photos AS T1 JOIN camera_lens AS T2 ON T1.camera_lens_id = T2.camera_lens_id WHERE T1.id NOT IN (SELECT T1.id FROM photos AS T1 JOIN camera_lens AS T2 ON T1.camera_lens_id = T2.camera_lens_id)", "latency_ms": 1603}
+{"answer": "SELECT mass FROM table_name_54 WHERE designation = \"prognoz 2\"", "latency_ms": 506}
+{"answer": "SELECT home_team FROM table_name_75 WHERE venue = \"punt road oval\"", "latency_ms": 537}
+{"answer": "SELECT res FROM table_name_12 WHERE opponent = \"ryan schultz\"", "latency_ms": 454}
+{"answer": "SELECT length_fuel FROM table_name_91 WHERE floor_styling = \"high\" AND year_built = \"2000-2003\"", "latency_ms": 960}
+{"answer": "SELECT COUNT(score) FROM table_17355628_7 WHERE team = \"@ New Jersey\"", "latency_ms": 736}
+{"answer": "SELECT school_club_team FROM table_name_95 WHERE player = \"vince carter\"", "latency_ms": 516}
+{"answer": "SELECT nhl_team FROM table_1965650_11 WHERE college_junior_club_team = \"Calgary Centennials (WCHL)\"", "latency_ms": 1111}
+{"answer": "SELECT COUNT(subscribers__2006___thousands_) FROM table_29395291_2 WHERE provider = \"Glo Mobile\"", "latency_ms": 1016}
+{"answer": "SELECT player FROM table_name_43 WHERE money___$__ < 335", "latency_ms": 471}
+{"answer": "SELECT score FROM table_name_78 WHERE song = \"\u6211\u7b49\u7684\u4eba\u4f1a\"", "latency_ms": 487}
+{"answer": "SELECT successor FROM table_224794_3 WHERE district = \"Kentucky 2nd\"", "latency_ms": 699}
+{"answer": "SELECT SUM(week) FROM table_24776075_2 WHERE date = \"Saturday, May 25\"", "latency_ms": 814}
+{"answer": "SELECT COUNT(1 AS st_prize_) FROM table_name_15 WHERE country = \"united states\" AND score < 271 AND year > 1964 AND winner = \"bobby michell\"", "latency_ms": 1358}
+{"answer": "SELECT MAX(rank) FROM table_name_45 WHERE floors__stories_ > 15", "latency_ms": 565}
+{"answer": "SELECT number_of_episodes FROM table_name_74 WHERE notes = \"moved to run a farm with boyfriend jake\"", "latency_ms": 697}
+{"answer": "SELECT MAX(total) FROM table_15988037_24 WHERE average = \"28.5\"", "latency_ms": 772}
+{"answer": "SELECT COUNT(joined) FROM table_1971074_1 WHERE location = \"Logan Township, Pennsylvania\"", "latency_ms": 819}
+{"answer": "SELECT opponent FROM table_22853654_9 WHERE result = \"3\u20136, 4\u20136, 6\u20131, 6\u20137 (7\u20139)\"", "latency_ms": 1171}
+{"answer": "SELECT MAX(pick) FROM table_name_11 WHERE position = \"te\" AND round < 2", "latency_ms": 640}
+{"answer": "SELECT MAX(silver) FROM table_name_40 WHERE bronze > 1 AND total > 48", "latency_ms": 628}
+{"answer": "SELECT official_name FROM table_171361_1 WHERE area_km_2 = \"30.75\"", "latency_ms": 725}
+{"answer": "SELECT location FROM table_name_48 WHERE attendance = \"70,283\"", "latency_ms": 615}
+{"answer": "SELECT home_team FROM table_name_99 WHERE venue = \"punt road oval\"", "latency_ms": 573}
+{"answer": "SELECT score FROM table_name_17 WHERE game > 47 AND location_attendance = \"rose garden 20,250\"", "latency_ms": 894}
+{"answer": "SELECT SUM(diameter__km_) FROM table_name_4 WHERE name = \"alma-merghen planitia\" AND year_named < 1997", "latency_ms": 1034}
+{"answer": "SELECT T1.project_id, COUNT(*) FROM Projects AS T1 JOIN Project_Staff AS T2 ON T1.project_id = T2.project_id GROUP BY T1.project_id ORDER BY T1.project_id", "latency_ms": 1190}
+{"answer": "SELECT winning_score FROM table_21469545_2 WHERE date = \"8 Feb 2009\"", "latency_ms": 856}
+{"answer": "SELECT SUM(bronze) FROM table_name_51 WHERE silver < 2 AND total > 4 AND rank = \"33\"", "latency_ms": 863}
+{"answer": "SELECT callsign FROM table_name_81 WHERE power__kw_ = \"5k\" AND location = \"cagayan de oro\"", "latency_ms": 866}
+{"answer": "SELECT country FROM table_1682026_9 WHERE market_value__billion_$_ = \"188.77\"", "latency_ms": 882}
+{"answer": "SELECT high_rebounds FROM table_17103729_8 WHERE score = \"64-74\"", "latency_ms": 794}
+{"answer": "SELECT class FROM table_name_98 WHERE league = \"dsha\" AND school = \"middletown high school\"", "latency_ms": 738}
+{"answer": "SELECT name FROM table_26176081_29 WHERE tfl_yds = \"2-2\"", "latency_ms": 787}
+{"answer": "SELECT competition FROM table_name_27 WHERE date = \"23 february 1929\"", "latency_ms": 671}
+{"answer": "SELECT zx_spectrum FROM table_name_7 WHERE title = \"ankh\" AND c = 64 AND c64 = \"c64\"", "latency_ms": 947}
+{"answer": "SELECT points_for FROM table_13564637_5 WHERE club = \"TonyRefail RFC\"", "latency_ms": 724}
+{"answer": "SELECT nfl_club FROM table_name_35 WHERE pick > 196", "latency_ms": 482}
+{"answer": "SELECT builder FROM table_name_52 WHERE class = \"terrier\"", "latency_ms": 387}
+{"answer": "SELECT period FROM table_name_52 WHERE team = \"det\" AND time = \"11:27\"", "latency_ms": 782}
+{"answer": "SELECT result FROM table_14966537_1 WHERE opponent = \"Chicago Bears\"", "latency_ms": 675}
+{"answer": "SELECT evening_gown FROM table_16390001_2 WHERE average = \"9.266\"", "latency_ms": 885}
+{"answer": "SELECT result FROM table_name_40 WHERE first_elected = \"1904\" AND incumbent = \"james o'h. patterson\"", "latency_ms": 944}
+{"answer": "SELECT party FROM table_name_23 WHERE state = \"vic\" AND electorate = \"wannon\"", "latency_ms": 691}
+{"answer": "SELECT d_45 FROM table_name_58 WHERE d_42 = \"r 22\"", "latency_ms": 735}
+{"answer": "SELECT MIN(place) FROM table_name_10 WHERE draw = 6 AND goals_scored > 26 AND goals_conceded = 18", "latency_ms": 967}
+{"answer": "SELECT winner FROM table_name_72 WHERE points_classification = \"tony rominger\" AND stage = \"17\"", "latency_ms": 730}
+{"answer": "SELECT college_junior_club_team__league_ FROM table_name_12 WHERE round = \"2\" AND position = \"d\"", "latency_ms": 834}
+{"answer": "SELECT original_air_date FROM table_26565917_2 WHERE us_viewers__millions_ = \"14.55\"", "latency_ms": 1013}
+{"answer": "SELECT score FROM table_name_51 WHERE date = \"december 2\"", "latency_ms": 546}
+{"answer": "SELECT score FROM table_name_97 WHERE home_team = \"notts county\"", "latency_ms": 558}
+{"answer": "SELECT period_active FROM table_name_83 WHERE release_year_of_first_charted_record = \"1973\" AND genre = \"rock album\"", "latency_ms": 929}
+{"answer": "SELECT share_of_votes FROM table_name_40 WHERE number_of_ndc_votes = \"3,567,021\"", "latency_ms": 804}
+{"answer": "SELECT place FROM table_name_33 WHERE score = \"66\"", "latency_ms": 425}
+{"answer": "SELECT score FROM table_name_38 WHERE location = \"georgia\" AND winner = \"tommy aaron (2)\"", "latency_ms": 762}
+{"answer": "SELECT tatsumoto_takaiwa FROM table_name_50 WHERE ryusuke_taguchi = \"taguchi (14:31)\"", "latency_ms": 914}
+{"answer": "SELECT to_par FROM table_name_62 WHERE country = \"united states\" AND place = \"t8\" AND player = \"tiger woods\"", "latency_ms": 967}
+{"answer": "SELECT MAX(shirt_number) FROM table_name_22 WHERE cap_number = 5", "latency_ms": 550}
+{"answer": "SELECT college_junior_club_team__league_ FROM table_name_98 WHERE round = \"6\"", "latency_ms": 646}
+{"answer": "SELECT home_team FROM table_name_2 WHERE tie_no = \"2\"", "latency_ms": 543}
+{"answer": "SELECT gagarin_cup_winner FROM table_name_17 WHERE gagarin_cup_finalist = \"avangard omsk\"", "latency_ms": 853}
+{"answer": "SELECT skip FROM table_name_55 WHERE third = \"anna sloan\" AND season = \"2012-13\"", "latency_ms": 794}
+{"answer": "SELECT executive_director FROM table_name_84 WHERE type = \"extension\" AND location = \"lemer, batangas\"", "latency_ms": 756}
+{"answer": "SELECT manner_of_departure FROM table_27057070_3 WHERE replaced_by = \"Bahman Hasanov\"", "latency_ms": 780}
+{"answer": "SELECT release_date FROM table_name_31 WHERE title = \"aladdin time\"", "latency_ms": 553}
+{"answer": "SELECT location FROM table_name_65 WHERE authors = \"molnar\"", "latency_ms": 522}
+{"answer": "SELECT COUNT(DISTINCT Party) FROM representative", "latency_ms": 341}
+{"answer": "SELECT date FROM table_name_78 WHERE result_f_a = \"1\u20132\" AND opponent = \"bolton wanderers\"", "latency_ms": 811}
+{"answer": "SELECT us_viewers__in_millions_ FROM table_23958944_6 WHERE production_number = \"520\"", "latency_ms": 930}
+{"answer": "SELECT result FROM table_17386066_2 WHERE date = \"Nov. 26, 1972\"", "latency_ms": 933}
+{"answer": "SELECT year_joined FROM table_name_65 WHERE _number___county = \"09 cass\"", "latency_ms": 593}
+{"answer": "SELECT score FROM table_name_66 WHERE tournament = \"frankfurt\"", "latency_ms": 545}
+{"answer": "SELECT MIN(no) FROM table_15621965_18 WHERE position = \"Forward-Center\"", "latency_ms": 819}
+{"answer": "SELECT AVG(year) FROM table_name_98 WHERE poles < 2 AND fast_laps = 0 AND drivers = \"adrian quaife-hobbs\"", "latency_ms": 1008}
+{"answer": "SELECT COUNT(game) FROM table_name_82 WHERE record = \"11-12\"", "latency_ms": 666}
+{"answer": "SELECT rider FROM table_name_50 WHERE final_position___tour < 50 AND final_position___vuelta < 11 AND year < 2008", "latency_ms": 1031}
+{"answer": "SELECT average FROM table_23662356_3 WHERE number_of_dances = \"4\"", "latency_ms": 694}
+{"answer": "SELECT name FROM event ORDER BY YEAR DESC", "latency_ms": 227}
+{"answer": "SELECT date FROM table_name_48 WHERE record = \"33.952\"", "latency_ms": 602}
+{"answer": "SELECT 2009 FROM table_name_77 WHERE 2012 = \"1r\" AND 2011 = \"2r\"", "latency_ms": 1022}
+{"answer": "SELECT score FROM table_name_42 WHERE competition = \"1998 fifa world cup qualification\"", "latency_ms": 688}
+{"answer": "SELECT player FROM table_name_37 WHERE place = \"t10\"", "latency_ms": 490}
+{"answer": "SELECT COUNT(overall) FROM table_name_29 WHERE position = \"buddy payne\" AND name = \"a\" AND pick < 5", "latency_ms": 837}
+{"answer": "SELECT alternate_title_translation FROM table_name_40 WHERE series_premiere = \"december 12, 2006\"", "latency_ms": 841}
+{"answer": "SELECT COUNT(year) FROM table_name_35 WHERE playoffs = \"quarterfinals\"", "latency_ms": 506}
+{"answer": "SELECT team FROM table_27733258_8 WHERE date = \"January 9\"", "latency_ms": 621}
+{"answer": "SELECT MAX(wins) FROM table_name_42 WHERE year < 2000 AND best_finish = 4 AND tournaments_played < 3", "latency_ms": 1007}
+{"answer": "SELECT date FROM table_name_19 WHERE competition = \"1986 fifa world cup\"", "latency_ms": 607}
+{"answer": "SELECT away_team AS score FROM table_name_55 WHERE home_team = \"carlton\"", "latency_ms": 607}
+{"answer": "SELECT event FROM table_name_21 WHERE year > 2005 AND competition = \"asian championships\" AND position = \"2nd\" AND venue = \"kobe, japan\"", "latency_ms": 1133}
+{"answer": "SELECT college FROM table_name_95 WHERE pick > 130 AND team = \"new york jets\"", "latency_ms": 692}
+{"answer": "SELECT original_air_date FROM table_29584044_1 WHERE directed_by = \"Bruce Seth Green\"", "latency_ms": 803}
+{"answer": "SELECT womens_doubles FROM table_14903881_1 WHERE mens_doubles = \"Theodoros Velkos Giorgos Patis\"", "latency_ms": 976}
+{"answer": "SELECT MIN(clubs) FROM table_name_88 WHERE place > 5 AND all_around > 9.7", "latency_ms": 781}
+{"answer": "SELECT visitor FROM table_name_78 WHERE home = \"montreal canadiens\" AND record = \"6\u20134\u20134\"", "latency_ms": 851}
+{"answer": "SELECT high_points FROM table_23285849_5 WHERE record = \"3-0\"", "latency_ms": 758}
+{"answer": "SELECT date FROM table_name_91 WHERE event = \"1500m freestyle\"", "latency_ms": 663}
+{"answer": "SELECT SUM(game) FROM table_27902171_7 WHERE score = \"W 95-85\"", "latency_ms": 889}
+{"answer": "SELECT abbr FROM table_name_30 WHERE disorder = \"carbamoyl phosphate synthetase i deficiency\"", "latency_ms": 756}
+{"answer": "SELECT SUM(spectators) FROM table_name_66 WHERE time___cest__ > 20.05 AND team__number2 = \"estonia\"", "latency_ms": 974}
+{"answer": "SELECT address FROM shop ORDER BY open_year", "latency_ms": 229}
+{"answer": "SELECT AVG(rank) FROM table_name_59 WHERE group = \"a\" AND athlete = \"yanina karolchyk\" AND result > 18", "latency_ms": 999}
+{"answer": "SELECT institution FROM table_27816698_2 WHERE founded = \"1932\"", "latency_ms": 719}
+{"answer": "SELECT COUNT(total) FROM table_name_23 WHERE rank < 5 AND bronze = 4 AND gold < 3", "latency_ms": 771}
+{"answer": "SELECT week FROM table_name_37 WHERE tv_time = \"bye\"", "latency_ms": 547}
+{"answer": "SELECT to_par FROM table_name_21 WHERE score = 70 - 70 = 140", "latency_ms": 823}
+{"answer": "SELECT scientific_pitch FROM table_name_33 WHERE helmholtz_pitch = \"d\"", "latency_ms": 590}
+{"answer": "SELECT date FROM table_name_98 WHERE opponent = \"green bay packers\"", "latency_ms": 520}
+{"answer": "SELECT collaboration FROM table_name_7 WHERE name = \"sbi-087\" AND indication = \"rheumatoid arthritis\"", "latency_ms": 830}
+{"answer": "SELECT prefecture FROM table_2518850_4 WHERE high_school_name = \"Nihon Bunri\"", "latency_ms": 820}
+{"answer": "SELECT spacecraft FROM table_name_7 WHERE launcher = \"titan ii\"", "latency_ms": 502}
+{"answer": "SELECT college FROM table_2508633_9 WHERE nfl_team = \"New England Patriots\" AND position = \"Tight End\"", "latency_ms": 867}
+{"answer": "SELECT years_of_operation FROM table_name_35 WHERE location = \"prospect 33 prospect ave\"", "latency_ms": 641}
+{"answer": "SELECT COUNT(sinhalese) FROM table_24574438_1 WHERE indian_tamil = \"177\"", "latency_ms": 836}
+{"answer": "SELECT week_2 FROM table_name_16 WHERE week_3 = \"casey mae\"", "latency_ms": 642}
+{"answer": "SELECT l2_cache FROM table_name_54 WHERE model_number = \"pentium ii 350\"", "latency_ms": 667}
+{"answer": "SELECT prize_money FROM table_name_40 WHERE matches > 1 AND new_entries_this_round = \"102\"", "latency_ms": 745}
+{"answer": "SELECT away FROM table_name_99 WHERE season = \"2007\u201308\"", "latency_ms": 625}
+{"answer": "SELECT design FROM table_name_46 WHERE serial_format = \"ab-12-34\"", "latency_ms": 651}
+{"answer": "SELECT COUNT(overall) FROM table_name_63 WHERE name = \"derek smith\" AND round > 3", "latency_ms": 729}
+{"answer": "SELECT notes FROM table_name_41 WHERE competition = \"all-africa games\" AND year < 2007", "latency_ms": 737}
+{"answer": "SELECT AVG(number_on_map) FROM table_name_42 WHERE name = \"northgate\" AND construction_commenced < 1951", "latency_ms": 884}
+{"answer": "SELECT venue FROM table_name_29 WHERE year < 2011 AND competition = \"world junior championships\"", "latency_ms": 662}
+{"answer": "SELECT player FROM table_name_33 WHERE position = \"kicker\"", "latency_ms": 488}
+{"answer": "SELECT name FROM table_1211545_2 WHERE heavy_vehicle__2_axles_ = \"R20.50\"", "latency_ms": 859}
+{"answer": "SELECT name FROM table_name_11 WHERE length = \"16.62km\" AND time = \"15:10\"", "latency_ms": 911}
+{"answer": "SELECT score FROM table_name_65 WHERE date = \"may 7, 2006\"", "latency_ms": 625}
+{"answer": "SELECT class_es_ FROM table_name_70 WHERE circuit = \"maaza raceway lagoa seca\"", "latency_ms": 709}
+{"answer": "SELECT AVG(population) FROM table_name_24 WHERE density__pop_per_km_2__ < 487 AND rank = \"9\" AND area__km_2__ > 377 OFFSET 944", "latency_ms": 1341}
+{"answer": "SELECT COUNT(crowd) FROM table_name_29 WHERE home_team = \"carlton\"", "latency_ms": 632}
+{"answer": "SELECT round FROM table_name_89 WHERE name = \"will rackley\"", "latency_ms": 439}
+{"answer": "SELECT MIN(founded) FROM table_261941_1", "latency_ms": 448}
+{"answer": "SELECT POSITION FROM player WHERE Points > 20 INTERSECT SELECT Position FROM player WHERE Points < 10", "latency_ms": 650}
+{"answer": "SELECT rider FROM table_name_56 WHERE time = \"1:45.52.84\" AND rank = 8", "latency_ms": 801}
+{"answer": "SELECT opponent FROM table_name_21 WHERE game_site = \"indianapolis hoosierdome\"", "latency_ms": 593}
+{"answer": "SELECT COUNT(bronze) FROM table_name_24 WHERE total < 1", "latency_ms": 537}
+{"answer": "SELECT player FROM table_name_75 WHERE nationality = \"canada\" AND pick = \"199\"", "latency_ms": 735}
+{"answer": "SELECT MIN(_number) FROM table_11964047_10", "latency_ms": 626}
+{"answer": "SELECT investment_earnings FROM table_name_26 WHERE state_ = \"state\" AND _federal = \"$13,999,169\"", "latency_ms": 982}
+{"answer": "SELECT title FROM table_24938621_2 WHERE production_code = \"3X5402\"", "latency_ms": 798}
+{"answer": "SELECT SUM(total) FROM table_name_91 WHERE position = \"1\"", "latency_ms": 444}
+{"answer": "SELECT MIN(lane) FROM table_name_53 WHERE name = \"xue ruipeng\"", "latency_ms": 605}
+{"answer": "SELECT result_s_ FROM table_name_34 WHERE format_s_ = \"single\" AND date = \"march 21\"", "latency_ms": 849}
+{"answer": "SELECT SUM(election) FROM table_name_1 WHERE province = \"vicenza\"", "latency_ms": 521}
+{"answer": "SELECT d_43_\u221a FROM table_name_64 WHERE d_49_\u221a = \"d 49 \u221a\"", "latency_ms": 809}
+{"answer": "SELECT MAX(number_of_people) FROM table_16048129_5 WHERE average_family_size = \"2.8\"", "latency_ms": 819}
+{"answer": "SELECT portuguese_title FROM table_22118197_1 WHERE english_title = \"Belle Toujours\"", "latency_ms": 763}
+{"answer": "SELECT label FROM table_name_16 WHERE release = \"liebesgr\u00fcsse aus ost-berlin\"", "latency_ms": 642}
+{"answer": "SELECT tie_no FROM table_name_56 WHERE away_team = \"port vale\"", "latency_ms": 507}
+{"answer": "SELECT 2007 FROM table_name_16 WHERE 2004 = \"olympic\" AND 2008 = \"oxygen\"", "latency_ms": 993}
+{"answer": "SELECT team FROM table_name_64 WHERE stadium = \"vikings stadium\"", "latency_ms": 485}
+{"answer": "SELECT hometown FROM table_name_31 WHERE height = \"6-0\"", "latency_ms": 487}
+{"answer": "SELECT SUM(round) FROM table_name_92 WHERE position = \"ol player richard zulys\" AND player = \"richard zulys\"", "latency_ms": 871}
+{"answer": "SELECT MAX(brisbane) FROM table_24291077_4", "latency_ms": 549}
+{"answer": "SELECT laps FROM table_name_96 WHERE points = \"19\"", "latency_ms": 396}
+{"answer": "SELECT date FROM table_name_62 WHERE opponent = \"northwestern\"", "latency_ms": 490}
+{"answer": "SELECT writer_s_ FROM table_name_29 WHERE episode = \"18-09 (652)\"", "latency_ms": 786}
+{"answer": "SELECT MIN(top_10) FROM table_name_4 WHERE wins = 0 AND top_25 = 12 AND events < 23", "latency_ms": 977}
+{"answer": "SELECT episode FROM table_name_51 WHERE run_time = \"25:12\"", "latency_ms": 608}
+{"answer": "SELECT pregame_host FROM table_name_51 WHERE year < 1992 AND play_by_play = \"bob irving\"", "latency_ms": 778}
+{"answer": "SELECT venue FROM table_name_57 WHERE away_team = \"collingwood\"", "latency_ms": 549}
+{"answer": "SELECT competition FROM table_name_86 WHERE season = \"2002\u201303\" AND opponent = \"zenit st. petersburg\"", "latency_ms": 926}
+{"answer": "SELECT result FROM table_name_90 WHERE game_site = \"soldier field\"", "latency_ms": 561}
+{"answer": "SELECT COUNT(party) FROM table_1342149_42 WHERE candidates = \"Howard Baker, Sr. (R) 68.9% Boyd W. Cox (D) 31.1%\"", "latency_ms": 1640}
+{"answer": "SELECT county FROM table_name_74 WHERE latitude > 48.581299 AND ansi_code > 1037103 AND geo_id = \"3801985060\"", "latency_ms": 1654}
+{"answer": "SELECT T1.Fleet_Series FROM aircraft AS T1 JOIN pilot_record AS T2 ON T1.Aircraft_ID = T2.Aircraft_ID WHERE T2.Pilot_ID < 34", "latency_ms": 1370}
+{"answer": "SELECT democratic_ticket FROM table_name_14 WHERE office = \"comptroller\"", "latency_ms": 639}
+{"answer": "SELECT COUNT(_number) FROM table_28348757_6 WHERE us_viewers__million_ = \"0.79\"", "latency_ms": 978}
+{"answer": "SELECT season FROM table_20026849_1 WHERE winner = \"Anthony Yeh\"", "latency_ms": 649}
+{"answer": "SELECT ad_freq FROM table_name_28 WHERE show_name = \"show off the bench\"", "latency_ms": 577}
+{"answer": "SELECT \u03b5__m_\u22121_cm_\u22121__ FROM table_26428602_1 WHERE color = \"Orange Fluorescent\"", "latency_ms": 944}
+{"answer": "SELECT runner_up FROM table_25058269_1 WHERE season = \"2007\u201308\"", "latency_ms": 813}
+{"answer": "SELECT date FROM table_name_80 WHERE tie_no = \"4\"", "latency_ms": 504}
+{"answer": "SELECT COUNT(score) FROM table_22165661_3 WHERE championship_game_opponent = \"Miami University\"", "latency_ms": 721}
+{"answer": "SELECT SUM(round) FROM table_name_38 WHERE position = \"nose tackle\"", "latency_ms": 570}
+{"answer": "SELECT score FROM table_name_91 WHERE outcome = \"runner-up\" AND tournament = \"marco island tournament match\"", "latency_ms": 725}
+{"answer": "SELECT year FROM table_name_44 WHERE award = \"drama desk award\" AND result = \"won\" AND nominee = \"george hearn\"", "latency_ms": 898}
+{"answer": "SELECT location FROM table_name_98 WHERE left = \"1975\" AND type = \"private member\" AND type = \"former private member\" AND founded = \"1891\"", "latency_ms": 1145}
+{"answer": "SELECT date FROM table_name_23 WHERE competition = \"2004 afc asian cup qualifier\"", "latency_ms": 549}
+{"answer": "SELECT outcome FROM table_name_75 WHERE score = \"6\u20133, 6\u20134\"", "latency_ms": 604}
+{"answer": "SELECT date FROM table_name_90 WHERE venue = \"punt road oval\"", "latency_ms": 569}
+{"answer": "SELECT country FROM table_name_6 WHERE to_par < 13 AND player = \"wayne grady\"", "latency_ms": 687}
+{"answer": "SELECT SUM(dma) FROM table_19131921_1", "latency_ms": 544}
+{"answer": "SELECT AVG(goals) FROM table_name_65 WHERE competition = \"k-league\" AND team = \"pohang steelers\" AND total_gs < 46", "latency_ms": 1035}
+{"answer": "SELECT MIN(wsop_bracelets) FROM table_23696862_6", "latency_ms": 567}
+{"answer": "SELECT color FROM table_name_19 WHERE thai_name = \"\u0e27\u0e31\u0e19\u0e1e\u0e24\u0e2b\u0e31\u0e2a\u0e1a\u0e14\u0e35\"", "latency_ms": 660}
+{"answer": "SELECT date FROM table_name_82 WHERE attendance = \"16,212\"", "latency_ms": 543}
+{"answer": "SELECT date FROM table_name_87 WHERE result = \"ud 12/12\" AND name = \"pernell whitaker\" AND opponent = \"james mcgirt\"", "latency_ms": 1184}
+{"answer": "SELECT order_and_title FROM table_name_78 WHERE elevated = \"guillaume de bray\" AND elector = \"may 1262\"", "latency_ms": 926}
+{"answer": "SELECT party FROM table_name_45 WHERE member = \"mick young\"", "latency_ms": 435}
+{"answer": "SELECT part_3 FROM table_1745843_6 WHERE class = \"5\"", "latency_ms": 604}
+{"answer": "SELECT high_rebounds FROM table_name_83 WHERE score = \"w 76-66\"", "latency_ms": 977}
+{"answer": "SELECT location FROM table_name_86 WHERE nationality = \"lithuania\" AND date = \"12 october 2013\"", "latency_ms": 1419}
+{"answer": "SELECT m_v_ft_s FROM table_16439764_1 WHERE time_to_ft__m__at_25\u00b0__seconds_ = \"9.2\"", "latency_ms": 1673}
+{"answer": "SELECT T1.Other_Item_Details FROM Products AS T1 JOIN ORDER_ITEMS AS T2 ON T1.Product_ID = T2.Product_ID WHERE T1.Product_price > 2000", "latency_ms": 1598}
+{"answer": "SELECT qual_1 FROM table_name_43 WHERE best = \"1:01.704\"", "latency_ms": 924}
+{"answer": "SELECT draw FROM table_name_5 WHERE team = \"skra warszawa\"", "latency_ms": 598}
+{"answer": "SELECT MAX(season) FROM table_1165048_1 WHERE leading_goalkicker = \"Scott Simister (54)\"", "latency_ms": 912}
+{"answer": "SELECT revenues FROM table_name_43 WHERE tenure = \"1854-1855\"", "latency_ms": 632}
+{"answer": "SELECT MAX(meas_num) FROM table_256286_54 WHERE no_votes = \"322682\"", "latency_ms": 894}
+{"answer": "SELECT COUNT(_number_of_seats_won) FROM table_106367_2 WHERE _number_of_candidates = \"125\"", "latency_ms": 906}
+{"answer": "SELECT score FROM table_name_5 WHERE to_par = \"5\" AND player = \"brian watts\"", "latency_ms": 711}
+{"answer": "SELECT MAX(wins) FROM table_name_26 WHERE matches < 5 AND year = \"1994\"", "latency_ms": 762}
+{"answer": "SELECT COUNT(college) FROM table_28059992_2 WHERE player = \"Jerome Pathon\"", "latency_ms": 878}
+{"answer": "SELECT venue FROM table_name_77 WHERE position_in_2005 = \"8\"", "latency_ms": 637}
+{"answer": "SELECT points FROM table_name_43 WHERE games = \"16 16\"", "latency_ms": 596}
+{"answer": "SELECT course FROM table_name_98 WHERE year < 1934 AND location = \"midlothian, illinois\"", "latency_ms": 870}
+{"answer": "SELECT finalist FROM table_name_7 WHERE tournament = \"miami\"", "latency_ms": 444}
+{"answer": "SELECT previous_conference FROM table_name_67 WHERE school = \"penn\"", "latency_ms": 504}
+{"answer": "SELECT home_team FROM table_name_46 WHERE away_team = \"geelong\"", "latency_ms": 569}
+{"answer": "SELECT runner_up FROM table_name_96 WHERE year = \"2004\"", "latency_ms": 597}
+{"answer": "SELECT record FROM table_name_8 WHERE score = \"7 - 2\"", "latency_ms": 572}
+{"answer": "SELECT T2.Model FROM CARS_DATA AS T1 JOIN CAR_NAMES AS T2 ON T1.Id = T2.CarId ORDER BY T1.horsepower LIMIT 1", "latency_ms": 1027}
+{"answer": "SELECT location FROM table_2731431_1 WHERE elevation__m_ = \"3798\"", "latency_ms": 721}
+{"answer": "SELECT men\u2019s_nickname FROM table_10577579_3 WHERE women\u2019s_nickname = \"Lady Wildcats\"", "latency_ms": 849}
+{"answer": "SELECT COUNT(house_colour) FROM table_1942683_1 WHERE house_name = \"Hillary\"", "latency_ms": 697}
+{"answer": "SELECT high_points FROM table_17311797_10 WHERE game = \"Game 79\"", "latency_ms": 758}
+{"answer": "SELECT date_of_birth FROM table_22344463_2 WHERE height = \"185\" AND home_team = \"Heaton Mersey\"", "latency_ms": 1061}
+{"answer": "SELECT director_s_ FROM table_name_35 WHERE writer_s_ = \"alex winckler\"", "latency_ms": 586}
+{"answer": "SELECT film_title_used_in_nomination FROM table_name_98 WHERE original_title = \"zwartboek\"", "latency_ms": 696}
+{"answer": "SELECT settlement FROM table_2562572_25 WHERE type = \"Town\"", "latency_ms": 675}
+{"answer": "SELECT film_title_used_in_nomination FROM table_18987377_1 WHERE director = \"Andr\u00e9 T\u00e9chin\u00e9\" AND film_title_used_in_nomination LIKE \"%Articles with HCards%\"", "latency_ms": 1282}
+{"answer": "SELECT engine FROM table_name_28 WHERE rounds = \"all\" AND entrant = \"scuderia ferrari\"", "latency_ms": 677}
+{"answer": "SELECT name FROM table_29871617_1 WHERE property = \"Unknown\"", "latency_ms": 587}
+{"answer": "SELECT replaced_by FROM table_27225944_3 WHERE team = \"Slaven Belupo\"", "latency_ms": 675}
+{"answer": "SELECT chassis FROM table_name_61 WHERE entrant = \"trivellato racing team\"", "latency_ms": 648}
+{"answer": "SELECT high_points FROM table_17311797_8 WHERE date = \"February 6\"", "latency_ms": 733}
+{"answer": "SELECT poles FROM table_15327489_1 WHERE year = \"2011\"", "latency_ms": 726}
+{"answer": "SELECT COUNT(rank) FROM table_name_39 WHERE average = \"34.66\" AND season > 1", "latency_ms": 699}
+{"answer": "SELECT production_code FROM table_25604014_4 WHERE directed_by = \"Sam Weisman\"", "latency_ms": 687}
+{"answer": "SELECT party FROM table_1341423_23 WHERE incumbent = \"Jim Ramstad\"", "latency_ms": 585}

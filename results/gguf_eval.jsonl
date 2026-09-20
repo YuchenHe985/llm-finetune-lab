@@ -1,4 +1,4 @@
-{"label": "base-q4_k_m", "examples": 400, "exact_match": 0.1075, "file_mb": 491, "seconds": 69.3}
-{"label": "finetuned-f16", "examples": 400, "exact_match": 0.7125, "file_mb": 994, "seconds": 100.8}
-{"label": "finetuned-q8_0", "examples": 400, "exact_match": 0.72, "file_mb": 531, "seconds": 78.0}
-{"label": "finetuned-q4_k_m", "examples": 400, "exact_match": 0.7, "file_mb": 398, "seconds": 83.6}
+{"label": "base-q4_k_m", "examples": 400, "exact_match": 0.1075, "file_mb": 491, "seconds": 68.9, "concurrency": 4, "latency_ms_p50": 655, "latency_ms_p95": 1117}
+{"label": "finetuned-f16", "examples": 400, "exact_match": 0.7125, "file_mb": 994, "seconds": 103.2, "concurrency": 4, "latency_ms_p50": 1001, "latency_ms_p95": 1580}
+{"label": "finetuned-q8_0", "examples": 400, "exact_match": 0.72, "file_mb": 531, "seconds": 75.6, "concurrency": 4, "latency_ms_p50": 729, "latency_ms_p95": 1181}
+{"label": "finetuned-q4_k_m", "examples": 400, "exact_match": 0.7, "file_mb": 398, "seconds": 87.4, "concurrency": 4, "latency_ms_p50": 828, "latency_ms_p95": 1367}

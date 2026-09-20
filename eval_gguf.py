@@ -28,6 +28,11 @@ def norm_sql(s):
 
 
 def ask(port, ex):
+    t0 = time.time()
+    return ask_text(port, ex), (time.time() - t0) * 1000
+
+
+def ask_text(port, ex):
     body = {"model": "m", "temperature": 0, "max_tokens": 128, "stream": False,
             "messages": [{"role": "system", "content": SYSTEM},
                          {"role": "user", "content": f"Schema:\n{ex['context']}\n\nQuestion: {ex['question']}"}]}
@@ -46,9 +51,14 @@ def main():
     ap.add_argument("--label", default="")
     ap.add_argument("--port", type=int, default=9301)
     ap.add_argument("--out", default="")
+    ap.add_argument("--predictions", default="", help="write one JSON line per example: the answer and its latency")
+    ap.add_argument("--concurrency", type=int, default=4)
+    ap.add_argument("--limit", type=int, default=0, help="only the first N examples")
     args = ap.parse_args()
     examples = [json.loads(l) for l in open(args.eval)]
-    server = subprocess.Popen(["llama-server", "-m", args.model, "--port", str(args.port), "-np", "4", "-c", "8192"],
+    if args.limit:
+        examples = examples[:args.limit]
+    server = subprocess.Popen(["llama-server", "-m", args.model, "--port", str(args.port), "-np", str(args.concurrency), "-c", "8192"],
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     try:
         for _ in range(120):
@@ -63,9 +73,11 @@ def main():
         else:
             raise RuntimeError("llama-server did not become healthy")
         t0 = time.time()
-        with cf.ThreadPoolExecutor(4) as ex:
-            answers = list(ex.map(lambda e: ask(args.port, e), examples))
+        with cf.ThreadPoolExecutor(args.concurrency) as ex:
+            timed = list(ex.map(lambda e: ask(args.port, e), examples))
         wall = time.time() - t0
+        answers = [a for a, _ in timed]
+        lat = sorted(ms for _, ms in timed)
     finally:
         server.send_signal(signal.SIGTERM)
         try:
@@ -75,7 +87,12 @@ def main():
     correct = sum(norm_sql(a) == norm_sql(e["answer"]) for a, e in zip(answers, examples))
     result = {"label": args.label or os.path.basename(args.model), "examples": len(examples),
               "exact_match": correct / len(examples), "file_mb": round(os.path.getsize(args.model) / 1e6),
-              "seconds": round(wall, 1)}
+              "seconds": round(wall, 1), "concurrency": args.concurrency,
+              "latency_ms_p50": round(lat[len(lat) // 2]), "latency_ms_p95": round(lat[int(0.95 * (len(lat) - 1))])}
+    if args.predictions:
+        with open(args.predictions, "w") as f:
+            for (a, ms), e in zip(timed, examples):
+                f.write(json.dumps({"answer": a, "latency_ms": round(ms)}) + "\n")
     print(json.dumps(result))
     if args.out:
         with open(args.out, "a") as f:
