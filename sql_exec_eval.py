@@ -155,6 +155,8 @@ def main():
         if cls == "wrong" and len(samples) < 5:
             samples.append({"question": ex["question"], "reference": ex["answer"], "generated": first_statement(p["answer"])})
     n = sum(counts.values())
+    if n == 0:
+        sys.exit(f"nothing to score: {len(examples)} examples, {skipped} skipped, {len(preds)} predictions")
     lat = sorted(p["latency_ms"] for p in preds)
     result = {"label": args.label, "scored": n, "skipped": skipped,
               "exact": counts["exact"] / n, "equivalent": counts["equivalent"] / n,
