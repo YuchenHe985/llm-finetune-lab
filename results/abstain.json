@@ -1,0 +1,2030 @@
+{
+ "questions": 391,
+ "samples": 4,
+ "temperature": 0.7,
+ "rows": [
+  {
+   "threshold": 0.0,
+   "coverage": 1.0,
+   "execution_match": 0.8260869565217391,
+   "silent_wrong": 0.1636828644501279
+  },
+  {
+   "threshold": 0.2,
+   "coverage": 0.989769820971867,
+   "execution_match": 0.834625322997416,
+   "silent_wrong": 0.165374677002584
+  },
+  {
+   "threshold": 0.4,
+   "coverage": 0.9820971867007673,
+   "execution_match": 0.8411458333333334,
+   "silent_wrong": 0.15885416666666666
+  },
+  {
+   "threshold": 0.6,
+   "coverage": 0.9565217391304348,
+   "execution_match": 0.8582887700534759,
+   "silent_wrong": 0.14171122994652408
+  },
+  {
+   "threshold": 0.8,
+   "coverage": 0.9053708439897699,
+   "execution_match": 0.864406779661017,
+   "silent_wrong": 0.13559322033898305
+  },
+  {
+   "threshold": 1.0,
+   "coverage": 0.7800511508951407,
+   "execution_match": 0.8918032786885246,
+   "silent_wrong": 0.10819672131147541
+  }
+ ],
+ "policies": [
+  {
+   "policy": "answer everything",
+   "coverage": 1.0,
+   "execution_match": 0.8260869565217391,
+   "silent_wrong": 0.1636828644501279
+  },
+  {
+   "policy": "withhold when a string constant is not in the question",
+   "coverage": 0.9667519181585678,
+   "execution_match": 0.8518518518518519,
+   "silent_wrong": 0.13756613756613756
+  },
+  {
+   "policy": "withhold unless all samples agree",
+   "coverage": 0.7800511508951407,
+   "execution_match": 0.8918032786885246,
+   "silent_wrong": 0.10819672131147541
+  },
+  {
+   "policy": "withhold on either signal",
+   "coverage": 0.7621483375959079,
+   "execution_match": 0.9093959731543624,
+   "silent_wrong": 0.09060402684563758
+  }
+ ],
+ "invented_constant_flags": {
+  "of_wrong_answers": 0.1875,
+  "of_correct_answers": 0.0030959752321981426
+ },
+ "records": [
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.0,
+   "class": "error",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.2,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.2,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.0,
+   "class": "error",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.6,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.0,
+   "class": "error",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": true
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.0,
+   "class": "error",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.8,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.2,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 0.4,
+   "class": "wrong",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "equivalent",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  },
+  {
+   "confidence": 1.0,
+   "class": "exact",
+   "invented": false
+  }
+ ]
+}
