@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.gguf
+*.safetensors
+kernel/
+out/
+models/
+.DS_Store
