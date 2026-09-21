@@ -20,6 +20,11 @@ import time
 SYSTEM = "You translate questions into SQL for the given schema. Reply with one SQL statement only."
 
 
+def read_jsonl(path):
+    with open(path, encoding="utf-8") as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
 def norm_sql(s):
     m = re.search(r"```(?:sql)?\s*(.*?)```", s, re.S | re.I)
     if m:
@@ -37,8 +42,11 @@ def ask_text(port, ex):
             "messages": [{"role": "system", "content": SYSTEM},
                          {"role": "user", "content": f"Schema:\n{ex['context']}\n\nQuestion: {ex['question']}"}]}
     c = http.client.HTTPConnection("127.0.0.1", port, timeout=120)
-    c.request("POST", "/v1/chat/completions", json.dumps(body), {"Content-Type": "application/json"})
-    d = json.loads(c.getresponse().read())
+    try:
+        c.request("POST", "/v1/chat/completions", json.dumps(body), {"Content-Type": "application/json"})
+        d = json.loads(c.getresponse().read())
+    finally:
+        c.close()
     if "choices" not in d:
         raise RuntimeError(f"server error: {d}")
     return d["choices"][0]["message"]["content"]
@@ -55,7 +63,9 @@ def main():
     ap.add_argument("--concurrency", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0, help="only the first N examples")
     args = ap.parse_args()
-    examples = [json.loads(l) for l in open(args.eval)]
+    examples = read_jsonl(args.eval)
+    if not examples:
+        raise ValueError("evaluation set is empty")
     if args.limit:
         examples = examples[:args.limit]
     server = subprocess.Popen(["llama-server", "-m", args.model, "--port", str(args.port), "-np", str(args.concurrency), "-c", "8192"],
@@ -65,7 +75,9 @@ def main():
             try:
                 c = http.client.HTTPConnection("127.0.0.1", args.port, timeout=2)
                 c.request("GET", "/health")
-                if c.getresponse().status == 200:
+                status = c.getresponse().status
+                c.close()
+                if status == 200:
                     break
             except OSError:
                 pass

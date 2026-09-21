@@ -17,6 +17,9 @@ import time
 
 import torch
 import torch.distributed as dist
+import datasets
+import peft
+import transformers
 from datasets import load_dataset
 from peft import LoraConfig, get_peft_model
 from torch.nn.parallel import DistributedDataParallel as DDP
@@ -32,7 +35,8 @@ def parse():
     ap.add_argument("--train-n", type=int, default=8000)
     ap.add_argument("--eval-n", type=int, default=400)
     ap.add_argument("--max-len", type=int, default=384)
-    ap.add_argument("--per-device-bs", type=int, default=8)
+    ap.add_argument("--per-device-bs", type=int, default=4,
+                    help="micro-batch per GPU; 4 is the measured T4-safe setting")
     ap.add_argument("--global-batch", type=int, default=16)
     ap.add_argument("--epochs", type=int, default=1)
     ap.add_argument("--lr", type=float, default=2e-4)
@@ -131,7 +135,10 @@ def main():
     opt = torch.optim.AdamW([p for p in peft_model.parameters() if p.requires_grad], lr=args.lr, weight_decay=0.0)
     scaler = torch.amp.GradScaler("cuda")
 
-    result = {"world_size": world, "model": args.model, "trainable_params": trainable, "total_params": total,
+    result = {"world_size": world, "model": args.model,
+              "software": {"torch": torch.__version__, "transformers": transformers.__version__,
+                           "peft": peft.__version__, "datasets": datasets.__version__},
+              "trainable_params": trainable, "total_params": total,
               "train_examples": len(train_rows), "eval_examples": len(eval_rows), "global_batch": args.global_batch,
               "per_device_bs": args.per_device_bs, "gpu": torch.cuda.get_device_name(local)}
     if args.eval_before and rank == 0:

@@ -62,10 +62,14 @@ a guide and not a measurement:
 
 If that sample is representative, the true silent-wrong rate is nearer 10% than 16%: still twice the target.
 
-### Guardrails
+### Guardrails (exploratory, post-hoc)
 
 `abstain_eval.py` asks for four more sampled answers per question (temperature 0.7), runs all five on the test databases, and tries two signals for
 withholding an answer: the samples disagree, or the SQL compares against a string that is not in the question.
+
+These policies were selected and reported on the same 391-question evaluation set, and sample agreement currently uses one generated database per
+question. Treat the numbers below as hypothesis-generating rather than a production validation; a release decision needs a frozen policy evaluated on
+a separate, representative set of real schemas and questions.
 
 | Policy | Questions still answered | Right | Silent wrong |
 | --- | ---: | ---: | ---: |
@@ -129,6 +133,9 @@ own. Scaling was measured on two PCIe T4s only.
 
 ## Reproduce
 
+The training output now records the installed `torch`, `transformers`, `peft`, and `datasets` versions. For a long-lived reproduction, also pin the exact
+model, dataset, and llama.cpp revisions in the run manifest; the historical artifacts in this repository predate that metadata capture.
+
 Training runs in a Kaggle notebook with two T4s and internet access:
 
 ```bash
@@ -145,6 +152,9 @@ python3 eval_gguf.py --model model-q4_k_m.gguf --eval eval_set.jsonl --label q4_
 python3 sql_exec_eval.py --eval eval_set.jsonl --predictions predictions.jsonl --label q4_k_m
 python3 abstain_eval.py --model model-q4_k_m.gguf --eval eval_set.jsonl --predictions predictions.jsonl
 ```
+
+For a smoke run created with `eval_gguf.py --limit N`, pass the same `--limit N` to `sql_exec_eval.py` and
+`abstain_eval.py`; otherwise the evaluators reject mismatched input lengths instead of silently truncating them.
 
 Raw numbers, predictions and the audit are in `results/`.
 

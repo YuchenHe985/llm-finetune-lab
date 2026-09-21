@@ -29,6 +29,24 @@ ROWS = 24
 SEEDS = (11, 22, 33)
 
 
+def read_jsonl(path):
+    with open(path, encoding="utf-8") as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
+def require_aligned(examples, predictions):
+    if len(examples) != len(predictions):
+        raise ValueError(f"example/prediction length mismatch: {len(examples)} != {len(predictions)}")
+
+
+def apply_limit(examples, predictions, limit):
+    if limit < 0:
+        raise ValueError("limit must be non-negative")
+    if limit:
+        return examples[:limit], predictions[:limit]
+    return examples, predictions
+
+
 def normalise(sql):
     m = re.search(r"```(?:sql)?\s*(.*?)```", sql, re.S | re.I)
     if m:
@@ -140,9 +158,13 @@ def main():
     ap.add_argument("--predictions", required=True)
     ap.add_argument("--label", default="")
     ap.add_argument("--out", default="")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="score only the first N examples, matching eval_gguf.py --limit N")
     args = ap.parse_args()
-    examples = [json.loads(l) for l in open(args.eval)]
-    preds = [json.loads(l) for l in open(args.predictions)]
+    examples = read_jsonl(args.eval)
+    preds = read_jsonl(args.predictions)
+    examples, preds = apply_limit(examples, preds, args.limit)
+    require_aligned(examples, preds)
     counts, details, skipped, samples = Counter(), Counter(), 0, []
     for ex, p in zip(examples, preds):
         if not usable(ex):
