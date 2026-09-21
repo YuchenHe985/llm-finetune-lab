@@ -1,11 +1,10 @@
 # llm-finetune-lab
 
-**Question:** can a 0.5B-parameter model, fine-tuned with LoRA, answer questions about a database by writing SQL, on a laptop and without sending
-data anywhere? **Answer:** as a tool that suggests SQL for a person to review, yes; as something that answers on its own, no. About one answer in six runs
-fine and returns the wrong rows, and the checks that are cheap to build catch only some of those.
+[![ci](https://github.com/YuchenHe985/llm-finetune-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/YuchenHe985/llm-finetune-lab/actions/workflows/ci.yml) ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white) [![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f.svg)](#licence)
 
-This repository is the fine-tuning, the evaluation that led to that conclusion, and the training scripts. The evaluation is the substantial part: it scores
-generated SQL by running it, measures how the model fails, and tests guardrails against those failures.
+**Decision:** a 0.5B-parameter model fine-tuned with LoRA is viable as a private, on-device SQL suggestion tool, but not as an autonomous answerer. The **398 MB Q4_K_M** deployment reached **82.6% execution accuracy** and **611 ms p95 latency** on Apple M1, while **16.4%** of queries ran successfully but returned the wrong rows.
+
+This repository contains the training pipeline and the evaluation that led to that decision. The evaluation is the substantial part: it executes generated SQL, measures failure modes, and tests guardrails against silent wrong answers.
 
 ## Why this question
 
