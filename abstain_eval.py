@@ -62,9 +62,12 @@ def main():
     ap.add_argument("--temperature", type=float, default=0.7)
     ap.add_argument("--port", type=int, default=9302)
     ap.add_argument("--out", default="")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="evaluate only the first N examples, matching eval_gguf.py --limit N")
     args = ap.parse_args()
     examples = E.read_jsonl(args.eval)
     greedy = [row["answer"] for row in E.read_jsonl(args.predictions)]
+    examples, greedy = E.apply_limit(examples, greedy, args.limit)
     E.require_aligned(examples, greedy)
     keep = [i for i, e in enumerate(examples) if E.usable(e)]
 

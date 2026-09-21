@@ -153,6 +153,9 @@ python3 sql_exec_eval.py --eval eval_set.jsonl --predictions predictions.jsonl -
 python3 abstain_eval.py --model model-q4_k_m.gguf --eval eval_set.jsonl --predictions predictions.jsonl
 ```
 
+For a smoke run created with `eval_gguf.py --limit N`, pass the same `--limit N` to `sql_exec_eval.py` and
+`abstain_eval.py`; otherwise the evaluators reject mismatched input lengths instead of silently truncating them.
+
 Raw numbers, predictions and the audit are in `results/`.
 
 ## Licence

@@ -40,6 +40,14 @@ class SqlExecutionTests(unittest.TestCase):
         finally:
             os.unlink(path)
 
+    def test_explicit_limit_scores_a_matching_prefix(self):
+        examples, predictions = eval_sql.apply_limit(list(range(10)), list(range(4)), 4)
+        eval_sql.require_aligned(examples, predictions)
+        self.assertEqual(examples, [0, 1, 2, 3])
+        self.assertEqual(predictions, [0, 1, 2, 3])
+        with self.assertRaisesRegex(ValueError, "non-negative"):
+            eval_sql.apply_limit([], [], -1)
+
     def test_invented_constant_signal(self):
         self.assertFalse(abstain_eval.invented_constant(EXAMPLE, "SELECT name FROM city WHERE name = 'city'"))
         self.assertTrue(abstain_eval.invented_constant(EXAMPLE, "SELECT name FROM city WHERE name = 'Boston'"))
