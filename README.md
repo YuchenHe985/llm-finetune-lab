@@ -62,10 +62,14 @@ a guide and not a measurement:
 
 If that sample is representative, the true silent-wrong rate is nearer 10% than 16%: still twice the target.
 
-### Guardrails
+### Guardrails (exploratory, post-hoc)
 
 `abstain_eval.py` asks for four more sampled answers per question (temperature 0.7), runs all five on the test databases, and tries two signals for
 withholding an answer: the samples disagree, or the SQL compares against a string that is not in the question.
+
+These policies were selected and reported on the same 391-question evaluation set, and sample agreement currently uses one generated database per
+question. Treat the numbers below as hypothesis-generating rather than a production validation; a release decision needs a frozen policy evaluated on
+a separate, representative set of real schemas and questions.
 
 | Policy | Questions still answered | Right | Silent wrong |
 | --- | ---: | ---: | ---: |
@@ -128,6 +132,9 @@ they are equivalent, so "runs and is right" is an upper bound. The failure audit
 own. Scaling was measured on two PCIe T4s only.
 
 ## Reproduce
+
+The training output now records the installed `torch`, `transformers`, `peft`, and `datasets` versions. For a long-lived reproduction, also pin the exact
+model, dataset, and llama.cpp revisions in the run manifest; the historical artifacts in this repository predate that metadata capture.
 
 Training runs in a Kaggle notebook with two T4s and internet access:
 
